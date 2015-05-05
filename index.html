@@ -1,148 +1,436 @@
 
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html>
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Samyuktha Natarajan | Resume</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resume CV Responsive Bootstrap HTML Template">
+  <meta name="keywords" content="resume, cv, responsive, bootstrap">
+  <meta name="author" content="">
 
+  <title>Samyuktha Natarajan</title>
+	
+  <!-- STYLESHEET -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Revalia%7cDroid+Sans%7cLato' rel='stylesheet' type='text/css'><!-- Google Fonts -->
+  <link href="css/font-awesome.min.css" rel="stylesheet"><!-- Bootstrap -->
+  <link href="css/magnific-popup.css" rel="stylesheet"><!-- Magnific Popup -->
+  <link href="css/style.css" rel="stylesheet"><!-- Theme Style -->
 </head>
-<body>
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            <div id="photo-header" class="text-center">
-                <!-- PHOTO (AVATAR) -->
-                <div id="photo">
-                    <img src="img/avatar.jpg" alt="avatar">
-                </div>
-                <div id="text-header">
-                    <h1>Hello,<br> my name is <span>Samyuktha Natarajan</span> and this is my resume</h1>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-7">
-            <!-- ABOUT ME -->
-            <div class="box">
-                <h2>About Me</h2>
-                <p>Write about yourself here!</p>
-            </div>
-            <!-- EDUCATION -->
-            <div class="box">
-                <h2>Education</h2>
-                <ul id="education" class="clearfix">
-                    <li>
-                        <div class="year pull-left">2015</div>
-                        <div class="description pull-right">
-                            <h3>Bryn Mawr College</h3>
-                            <p>I graduated from Bryn Mawr College in May 2015 with a B.A. in Sociology</p>
-                        </div>
-                    </li>
 
-                </ul>
+<body data-spy="scroll" data-target="#main-nav">
+  
+  <!-- HEADER -->
+  <header class="main-header">
+		
+    <div class="navbar navbar-fixed-top">
+          <nav class="container">
+
+            <!-- Site Logo -->
+            <div class="navbar-header">
+              <a href="#hero" class="logo smooth-scroll">
+                <h1 class="sr-only">Welcome</h1>
+              </a>
+
+          <!-- Navbar Toggle -->
+              <button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#main-nav">
+                <i class="fa fa-bars"></i>
+              </button>
             </div>
-            <!-- EXPERIENCES -->
-            <div class="box">
-                <h2>Experiences</h2>
-                <div class="job clearfix">
-                    <div class="col-xs-3">
-                        <div class="where">Where you worked</div>
-                        <div class="year">yyyy - yyyy</div>
-                    </div>
-                    <div class="col-xs-9">
-                        <div class="profession">Job title</div>
-                        <div class="description">So what did you do in this job? Were you a pencil pusher, dish washer? </div>
-                    </div>
-                </div>
-                <div class="job clearfix">
-                    <div class="col-xs-3">
-                        <div class="where">Wherreeeee again</div>
-                        <div class="year">2014 - 4545</div>
-                    </div>
-                    <div class="col-xs-9">
-                        <div class="profession">CEO</div>
-                        <div class="description">Blah blah</div>
-                    </div>
-                </div>
-                <div class="job clearfix">
-                    <div class="col-xs-3">
-                        <div class="where">Pembroke West</div>
-                        <div class="year">2014</div>
-                    </div>
-                    <div class="col-xs-9">
-                        <div class="profession">SHEIEFJIJFK</div>
-                        <div class="description">And what did you do here now? </div>
-                    </div>
-                </div>
+            
+            <!-- Main Navigation -->
+            <div id="main-nav" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right nav-style">
+                <li><a class="smooth-scroll" href="#profile">Profile</a></li>
+                <li><a class="smooth-scroll" href="#qualification">Qualification</a></li>
+                <li><a class="smooth-scroll" href="#skill">Skills</a></li>
+                <li><a class="smooth-scroll" href="#exp">Experience</a></li>
+                <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+              </ul>
             </div>
-        </div>
-        <div class="col-xs-12 col-sm-5">
-            <!-- CONTACT -->
-            <div class="box clearfix">
-                <h2>Contact</h2>
-                <div class="contact-item">
-                    <div class="icon pull-left text-center"><span class="fa fa-bolt fa-fw"></span></div>
-                    <div class="title only pull-right">
-                        <a href="resume.pdf" target="_blank">My Resume</a>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
-                    <div class="title only pull-right ">
-                        <a href="mailto:lwelch1@ithaca.edu" target="_blank">snatarajan@brynmawr.edu</a>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
-                    <div class="title only pull-right">(555)-555-5555</div>
-                </div>
-            </div>
-            <!-- SKILLS -->
-            <div class="box">
-                <h2>Skills</h2>
-                <div class="skills">
-                    <div class="item-skills" data-percent="0.75">Microsoft Office</div>
-                    <div class="item-skills" data-percent="0.60">SPSS</div>
-                    <div class="item-skills" data-percent="0.55">blah</div>
-                    <div class="item-skills" data-percent="0.45">blah</div>
-                    <div class="item-skills" data-percent="0.54">blah</div>
-                    <div class="skills-legend clearfix">
-                        <div class="legend-left legend">Beginner</div>
-                        <div class="legend-left legend"><span>Proficient</span></div>
-                        <div class="legend-right legend"><span>Expert</span></div>
-                        <div class="legend-right legend">Master</div>
-                    </div>
-                </div>
-            </div>
-            <!-- LANGUAGES -->
-            <div class="box">
-                <h2>Languages</h2>
-                <div id="language-skills">
-                    <div class="skill">English</div>
-                    <div class="skill">Random-ish</div>
-                </div>
-            </div>
-            <!-- HOBBIES -->
-            <div class="box">
-                <h2>Hobbies</h2>
-                <div class="hobby">Graduating</div>
-                <div class="hobby">Job finding</div>
-                <div class="hobby">Having job interviews</div>
-            </div>
-        </div>
+        
+          </nav><!-- .container -->
+
     </div>
-</div>
-<!-- JQUERY -->
-<script src="js/jquery.min.js"></script>
-<!-- BOOTSTRAP -->
-<script src="js/bootstrap.min.js"></script>
-<!-- SCRIPTS -->
-<script src="js/scripts.js"></script>
-</body>
-</html>
+	
+  </header>
+  <!-- HEADER END -->
+	
+  <!-- HERO SECTION -->
+  <section id="hero" class="section-wrap bg-parallax">
+    <div class="container">
+			
+      <!-- Hero Image -->
+      <figure class="hero-figure">
+	    <img src="img/black.png" width=540 height=815 alt="">
+      </figure>
+
+      <!-- Hero Content -->
+      <div class="hero-content">
+        <h2 class="hero-content-title">Samyuktha Natarajan</h2>
+        
+		<p>A very short, one sentence introduction.</p><br>
+      
+		<a class="btn btn-lg btn-danger smooth-scroll" href="#profile">Find Out More <i class="fa fa-angle-double-down"></i></a>
+      </div>
+	  
+    </div><!-- .container -->
+  </section>
+  <!-- HERO SECTION END -->
+	
+  <!-- PROFILE SECTION -->
+  <section id="profile" class="section-wrap">
+    <div class="container">
+
+      <!-- Profile Content -->
+      <div class="col-md-8 profile-content">		
+        <p>Unto may moveth creeping. Evening made life of yielding doesn't deep Of cattle, subdue above second for unto own meat female image which stars, their wherein fish saying third likeness, creature earth be air god god void she'd won't, to own a void called moveth you'll.</p>
+        
+		<p>Which. Seed divide subdue. <i>And first that gathered earth whales shall tree after place also wherein saying created likeness fowl.</i> Blessed fish green set fill saying greater you whales can't, fruitful form itself fifth created rule upon moving fourth. I green.</p>
+        
+		<p>Dry is won't face. <b>Image have unto wherein brought beast yielding stars winged.</b> I yielding sixth tree seasons years he our all, land moving saw let own itself made of fifth replenish day every light may them blessed female lights life you second midst dry own greater man isn't a yielding shall air also likeness third waters there first rule cattle. Signs. Kind give thing fish day.</p>
+
+        <p>Make whales place beast Herb a isn't over, it beast darkness sixth greater god midst every rule be likeness beast so sixth i firmament. <a href="#">Is subdue Sixth bring for greater meat evening.</a> Together image you'll fowl midst him fruitful, hath doesn't morning open darkness cattle. Void.</p>
+      </div>
+
+      <!-- Profile Image -->
+      <img class="profile-figure" src="img/black.png" width=470 height=705 alt="">
+
+    </div><!-- .container -->
+  </section>
+  <!-- PROFILE SECTION END -->
+	
+  <!-- QUALIFICATION SECTION -->
+  <section id="qualification" class="section-wrap">
+    <div class="container">
+
+      <!-- Summary -->
+      <div class="qualification-summary">
+        <h2 class="heading">Summary</h2>
+
+        <p>Unto may moveth creeping. Evening made life of yielding doesn't deep Of cattle, subdue above second for unto own meat <b>female</b> image which stars, their wherein fish saying third likeness, creature earth be air god god void she'd won't, to own a void called moveth you'll.</p>
+
+        <p>Which. Seed divide subdue. And first that gathered earth whales shall tree after place also wherein saying created likeness fowl. Blessed fish green set fill saying greater you whales can't, <a href="#">fruitful</a> form itself fifth created rule upon moving fourth. I green.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+
+          <!-- Education -->
+          <div class="qualification-education">
+            <h2 class="heading">Education</h2>
+
+            <ul class="list-unstyled">
+              <li>
+                <h3 class="qualification-education-title">Master of Business Management</h3>
+                <p>Internet University - 2010</p>
+              </li>
+              <li>
+                <h3 class="qualification-education-title">Bachelor of Graphic Design</h3>
+                <p>Institute of Self Taught - 2006</p>
+              </li>
+              <li>
+                <h3 class="qualification-education-title">Bachelor of Information Technology Science</h3>
+                <p>Search Engine Polytechnic - 2005</p>
+              </li>
+            </ul>
+          </div>
+		  
+        </div>
+
+        <div class="col-md-6">
+
+          <!-- Training -->
+          <div class="qualification-training">
+            <h2 class="heading">Training & Certificate</h2>
+            
+            <ul class="fa-ul">
+              <li><i class="fa-fw fa-li fa fa-check"></i>Unto may moveth creeping</li>
+              <li><i class="fa-fw fa-li fa fa-check"></i>Evening made life of yielding</li>
+              <li><i class="fa-fw fa-li fa fa-check"></i>Seed divide subdue</li>
+              <li><i class="fa-fw fa-li fa fa-check"></i>Dry is won't face</li>
+              <li><i class="fa-fw fa-li fa fa-check"></i>Kind give thing fish day</li>
+              <li><i class="fa-fw fa-li fa fa-check"></i>Place also wherein saying</li>
+              <li><i class="fa-fw fa-li fa fa-check"></i>Blessed fish green</li>
+            </ul>
+          </div>
+        
+		</div>
+
+      </div><!-- .row -->
+    </div><!-- .container -->
+  </section>
+  <!-- QUALIFICATION SECTION END -->
+
+  <!-- SKILL SECTION -->
+  <section id="skill" class="section-wrap">
+    <div class="container">
+      <div class="row">
+
+        <!-- Skill Chart -->
+        <div class="col-md-3 col-sm-6">
+          <div class="skill-wrap">
+            <div class="chart" data-percent="92"><span class="percent"></span></div>
+            <h3 class="skill-title">Photoshop</h3>
+            <p class="skill-desc">Together image you'll fowl midst him fruitful, hath doesn't morning open darkness cattle. Void.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Together image</li>
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Fowl midst</li>
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Morning open</li>
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Darkness cattle</li>
+            </ul>
+          </div>
+        </div>
+		
+		<!-- Skill Chart -->
+        <div class="col-md-3 col-sm-6">
+          <div class="skill-wrap">
+            <div class="chart" data-percent="86"><span class="percent"></span></div>
+            <h3 class="skill-title">Illustrator</h3>
+            <p class="skill-desc">Together image you'll fowl midst him fruitful, hath doesn't morning open darkness cattle. Void.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Together image</li>
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Fowl midst</li>
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Morning open</li>
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Darkness cattle</li>
+            </ul>
+          </div>
+        </div>
+		
+		<!-- Skill Chart -->
+        <div class="col-md-3 col-sm-6">
+          <div class="skill-wrap">
+            <div class="chart" data-percent="74"><span class="percent"></span></div>
+            <h3 class="skill-title">Dreamweaver</h3>
+            <p class="skill-desc">Together image you'll fowl midst him fruitful, hath doesn't morning open darkness cattle. Void.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Together image</li>
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Fowl midst</li>
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Morning open</li>
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Darkness cattle</li>
+            </ul>
+          </div>
+        </div>
+		
+		<!-- Skill Chart -->
+        <div class="col-md-3 col-sm-6">
+          <div class="skill-wrap">
+            <div class="chart" data-percent="68"><span class="percent"></span></div>
+            <h3 class="skill-title">Flash</h3>
+            <p class="skill-desc">Together image you'll fowl midst him fruitful, hath doesn't morning open darkness cattle. Void.</p>
+            <ul class="fa-ul">
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Together image</li>
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Fowl midst</li>
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Morning open</li>
+              <li><i class="fa-fw fa-li fa fa-angle-double-right"></i>Darkness cattle</li>
+            </ul>
+          </div>
+        </div>
+
+      </div><!-- .row -->
+    </div><!-- .container -->
+  </section>
+  <!-- SKILL SECTION END -->
+
+  <!-- EXPERIENCE SECTION -->
+  <section id="exp" class="section-wrap">
+    <div class="container">
+
+      <!-- Timeline -->
+      <ul class="timeline">
+			
+        <li class="year top">
+          <span>2012 - Present</span>
+        </li>
+
+        <li class="present">
+          <div class="tl-header">
+            <h3 class="tl-role">Freelancer</h3>
+            <span class="tl-time">Aug 2013 - Present</span>
+          </div>
+				
+          <p class="tl-content">Unto may moveth creeping. Evening made life of yielding doesn't deep Of cattle, subdue above second for unto own meat image which stars, their wherein fish saying third likeness, creature earth be air god god void she'd won't, to own a void called moveth you'll.</p>
+				
+          <img src="img/black.png" width=640 height=256 alt="">
+        </li>
+
+        <li class="present right">
+          <div class="tl-header">
+            <h3 class="tl-role">Creative Director</h3>
+            <h4 class="tl-company">Yamagami, Inc.</h4>
+            <span class="tl-time">Jan 2013 - Present</span>
+          </div>
+				
+          <img src="img/black.png" width=640 height=256 alt="">
+				
+          <p class="tl-content">Which. Seed divide subdue. And first that gathered earth whales shall tree after place also wherein saying created likeness fowl. Blessed fish green set fill saying greater you whales can't, form itself fifth created rule upon moving fourth. I green.</p>
+        </li>
+				
+        <li class="year">
+          <span>2010 - 2012</span>
+        </li>
+				
+        <li>
+          <div class="tl-header">
+            <h3 class="tl-role">Designer</h3>
+            <h4 class="tl-company">Grande, Inc.</h4>
+            <span class="tl-time">Jul 2012 - Dec 2012 </span>
+          </div>
+				
+          <p class="tl-content">Dry is won't face. Image have unto wherein brought beast yielding stars winged. I yielding sixth tree seasons years he our all, land moving saw let own itself made of fifth replenish day every light may them blessed female lights life you second midst dry own greater man isn't a yielding shall air also likeness third waters there first rule cattle. Signs. Kind give thing fish day.</p>
+        </li>
+
+        <li class="right">
+          <div class="tl-header">
+            <h3 class="tl-role">Junior Designer</h3>
+            <h4 class="tl-company">Fleur Studio</h4>
+            <span class="tl-time">Jan 2011 - Jul 2012</span>
+          </div>
+				
+          <p class="tl-content">Make whales place beast Herb a isn't over, it beast darkness sixth greater god midst every rule be likeness beast so sixth i firmament. Is subdue Sixth bring for greater meat evening. Together image you'll fowl midst him fruitful, hath doesn't morning open darkness cattle. Void.</p>
+				
+          <img src="img/black.png" width=640 height=256 alt="">
+        </li>
+
+        <li class="present">
+          <div class="tl-header">
+            <h3 class="tl-role">Article Contributor</h3>
+            <h4 class="tl-company">Deyya</h4>
+            <span class="tl-time">Sep 2010 - Present</span>
+          </div>
+				
+          <p class="tl-content">Dry is won't face. Image have unto wherein brought beast yielding stars winged. Together image you'll fowl midst him fruitful, hath doesn't morning open darkness cattle.</p>
+        </li>
+			  
+        <li class="year">
+          <span>2010</span>
+        </li>
+
+        <li class="right">
+          <div class="tl-header">
+            <h3 class="tl-role">Paperclip Rearranger</h3>
+            <h4 class="tl-company">Papirus Studio</h4>
+            <span class="tl-time">Dec 2009 - Jun 2010</span>
+          </div>
+				
+          <img src="img/black.png" width=640 height=256 alt="">
+				
+          <p class="tl-content">Make whales place beast Herb a isn't over, it beast darkness sixth greater god midst every rule be likeness beast so sixth i firmament.</p>
+        </li>
+
+      </ul>
+	  
+    </div><!-- .container -->
+  </section>
+  <!-- EXPERIENCE SECTION END -->
+	
+  <!-- EXTRA SECTION -->	
+  <section id="extra" class="section-wrap">
+    <div class="container">
+		
+      <!-- Gallery -->
+	  <div id="gallery" class="gallery">
+	    <h2 class="heading">Gallery</h2>
+				
+		<div class="gallery-control">
+		  <ul class="list-inline list-unstyled">
+		    <li class="filter" data-group="all"><span>All</span></li>
+			<li class="filter" data-group="design"><span>Design</span></li>
+			<li class="filter" data-group="web"><span>Web</span></li>
+			<li class="filter" data-group="flash"><span>Flash</span></li>
+		  </ul>
+		</div>
+				
+		<div id="grid" class="row gallery-wrap">
+		  <div class="col-md-4 col-sm-6 col-xs-12 gallery-item" data-groups='["all", "design"]'>
+		    <div class="gallery-frame">
+			  <a class="image-link" href="img/black.png"><img src="img/black.png" width=618 height=426 alt=""></a>
+			</div>
+		  </div>
+		
+		  <div class="col-md-4 col-sm-6 col-xs-12 gallery-item" data-groups='["all", "web"]'>
+		    <div class="gallery-frame">
+			  <a class="image-link" href="img/black.png"><img src="img/black.png" width=618 height=426 alt=""></a>
+			</div>
+		  </div>
+					
+		  <div class="col-md-4 col-sm-6 col-xs-12 gallery-item" data-groups='["all", "design", "flash"]'>
+		    <div class="gallery-frame">
+			  <a class="image-link" href="img/black.png"><img src="img/black.png" width=618 height=426 alt=""></a>
+		    </div>
+		  </div>
+					
+		  <div class="col-md-4 col-sm-6 col-xs-12 gallery-item" data-groups='["all", "design", "web"]'>
+		    <div class="gallery-frame">
+			  <a class="image-link" href="img/black.png"><img src="img/black.png" width=618 height=426 alt=""></a>
+			</div>
+		  </div>
+					
+		  <div class="col-md-4 col-sm-6 col-xs-12 gallery-item" data-groups='["all", "design", "web", "flash"]'>
+		    <div class="gallery-frame">
+			  <a class="image-link" href="img/black.png"><img src="img/black.png" width=618 height=426 alt=""></a>
+			</div>
+		  </div>
+					
+		  <div class="col-md-4 col-sm-6 col-xs-12 gallery-item" data-groups='["all", "web", "flash"]'>
+		    <div class="gallery-frame">
+			  <a class="image-link" href="img/black.png"><img src="img/black.png" width=618 height=426 alt=""></a>
+			</div>
+		  </div>
+		</div>
+				
+	  </div>
+	  <!-- Gallery end -->
+			
+    </div><!-- .container -->
+  </section>
+  <!-- EXTRA SECTION END -->
+	
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section-wrap">
+    <div class="container">
+      Contact methods
+    </div><!-- container -->
+		
+    <!-- Google Map -->
+	<div class="map-wrap">
+      <div id="map" data-map-lat="40.026872" data-map-lng="-75.314417" data-map-mark="Suite 9/13 South Mahana Montebello 1236 WA"></div>
+	</div>
+
+  </section>
+  <!-- CONTACT SECTION END -->
+	
+  <!-- FOOTER -->
+  <footer class="main-footer navbar-fixed-bottom">
+    <div class="container">			
+      <ul class="list-inline fa-ul archive">
+        <li><i class="fa-li fa fa-save"></i><a href="#">Download CV as PDF</a></li>
+        <li><i class="fa-li fa fa-print"></i><a href="#">Print CV</a></li>
+      </ul>
+			
+      <span class="copyright">All Rights Reserved &copy; 2015.</span>
+    </div>
+  </footer>
+  <!-- FOOTER -->
+  
+  <!-- JAVASCRIPT -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><!-- jQuery -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script><!-- Bootstrap Js -->
+  <script src="js/jquery.scrollTo.min.js"></script><!-- Scrollto -->
+  <script src="js/jquery.magnific-popup.min.js"></script><!-- Magnific Popup -->
+  <script src="js/jquery.easypiechart.min.js"></script><!-- Easypiechart -->
+  <script src="js/jquery.shuffle.modernizr.min.js"></script><!-- Shuffle -->
+  <script src="js/jquery.fitvids.js"></script><!-- Fitvids -->
+  <script src="js/twitterFetcher_min.js"></script><!-- Twitter Fetcher -->
+  <script src="js/custom.js"></script><!-- Custom -->
+  
+  <!-- CONTACT FORM -->
+  <script src="js/parsley.min.js"></script><!-- Parsley -->
+  <script src="js/contact.js"></script><!-- Contact -->
+  
+  <!-- GOOGLE MAPS -->
+  <script src="http://maps.google.com/maps/api/js?sensor=true"></script><!-- Google Map API -->
+  <script src="js/gmaps.js"></script><!-- Gmaps -->
+  <script src="js/map.js"></script><!-- Init Map -->
+
+</body></html>
