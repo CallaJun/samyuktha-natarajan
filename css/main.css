@@ -323,7 +323,7 @@ HOBBIES
     font-size: 1.2em;
 }
 .hobby:before{
-    content: "\f004";
+    content: "\f10c";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
